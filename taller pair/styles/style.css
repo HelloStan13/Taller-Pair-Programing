@@ -1,8 +1,11 @@
+
 body{
     background: #F0F2F0;  
     background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);
     background: linear-gradient(to right, #000C40, #F0F2F0); 
 }
+*/
+
 *{
     box-sizing:border-box;
     margin:0;
@@ -44,3 +47,11 @@ body{
     h1{
         color:#fff;
     }
+
+nav{
+    position: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-items: center;
+    padding: 5%;
+}
